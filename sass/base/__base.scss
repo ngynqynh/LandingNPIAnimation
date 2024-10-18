@@ -1,0 +1,35 @@
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+
+.box-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.ct-mb {
+    display: none;
+}
+
+main{
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+@media(max-width:1200px) {
+    .box-container {
+        padding: 0 5px;
+    }
+}   
+
+@media(max-width:992px) {
+    .box-container {    
+        padding: 0 10px;
+    }
+    .ct-desk {
+        display: none;
+    }
+    .ct-mb {
+        display: block;
+    }
+}

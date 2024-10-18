@@ -1,0 +1,68 @@
+.btn-red {
+    text-align: center;
+    display: inline-block;
+    background-color: #cb1c22;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 1;
+
+    &:hover,
+    &:active,
+    &:focus {
+        text-decoration: none;
+        color: white;
+    }
+    @media (max-width: 600px) {
+    }
+}
+.section__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 57px;
+
+    img {
+        max-width: 157px;
+        max-height: 57px;
+
+        @media (max-width: 992px) {
+            max-width: 100px;
+            max-height: 30px;
+        }
+
+        @media (max-width: 360px) {
+            max-width: 69px;
+            max-height: 26px;
+        }
+    }
+
+    a {
+        font-family: "Montserrat";
+        font-style: italic;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 100%;
+        color: #ffffff;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        background: #2bc30f;
+        border: 1px solid #2bc30f;
+        box-sizing: border-box;
+        box-shadow: 0px -3px 0px #00890e;
+        border-radius: 100px;
+        padding: 18px 32px;
+        border: none;
+        margin: 0 16px;
+
+        @media (max-width: 992px) {
+            font-size: 16px;
+            margin: 0 8px;
+        }
+
+        @media (max-width: 360px) {
+            font-weight: 700;
+            padding: 14px 24px;
+        }
+    }
+}
